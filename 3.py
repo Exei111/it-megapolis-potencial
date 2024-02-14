@@ -1,5 +1,5 @@
 #Открываем файл и читаем его в список со словарями
-with open(r'scientist.txt', encoding='utf-8') as file:
+with open(r'scientists.txt', encoding='utf-8') as file:
     reader = file.readlines()
     data = [i.replace('#', ',') for i in reader]
     #Сортируем данные по столбцу с датой

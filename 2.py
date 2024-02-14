@@ -2,7 +2,7 @@
 
 В задаче нельзя использовать сторонние сортировки, для решения воспользуйтесь быстрой сортировкой.'''
 
-with open('scientist.txt', 'r', encoding='utf-8') as f:
+with open('scientists.txt', 'r', encoding='utf-8') as f:
     data = f.readlines()
     data = [i.replace('#', ',') for i in data]
     #Сортируем данные по столбцу с датой
